@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.jpg';
+import  './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="container">
+      <div className="flex-auto justify-center items-center bg-sky-400 w-100 h-full py-32">
+        {/* logo */}
+        <div className="logo  mt-10">
+          {/* <img src={logo} alt="Company Logo"  className="w-20  "/> */}
+          {/* <h4>Tayo Tech / Customer Support</h4> */}
+        </div>
+      </div>
+     </div>
+     {/* <img src={logo} alt="" />
+      */}
     </div>
   );
 }
